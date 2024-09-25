@@ -171,4 +171,18 @@ document.getElementById('history-button').addEventListener('click', () => {
 
     document.getElementById('footer-section').classList.remove('hidden');
     document.getElementById('main-part').classList.add('hidden');
-});                            
+});
+
+
+
+
+
+
+            //  window Part
+
+
+document.getElementById('blog-button').addEventListener('click', () => {
+
+
+    window.location.href= '/faq.html'
+});            
