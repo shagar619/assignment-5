@@ -15,7 +15,7 @@ function getInnerTextById(id) {
 
 
 
-            //    Donation Button - 1
+                                //    Donation Button - 1
 
 
 
@@ -49,7 +49,7 @@ document.getElementById('donation-btn-1').addEventListener('click', (event) => {
  
      document.getElementById('history-text').innerHTML += `
  
-     <h3> ${donationValue} Taka is Donated for famine-2024 at Feni, Bangladesh</h3>
+     <h3> ${totalDonation} Taka is Donated for famine-2024 at Feni, Bangladesh</h3>
     
  
      `    
@@ -93,7 +93,7 @@ document.getElementById('donation-btn-2').addEventListener('click', (event) => {
  
      document.getElementById('history-text').innerHTML += `
  
-     <h3> ${donationValue} Taka is Donated for famine-2024 at Feni, Bangladesh</h3>
+     <h3> ${totalDonation} Taka is Donated for Flood Relief in Feni,Bangladesh</h3>
     
  
      `    
@@ -138,7 +138,7 @@ document.getElementById('donation-btn-3').addEventListener('click', (event) => {
  
      document.getElementById('history-text').innerHTML += `
  
-     <h3> ${donationValue} Taka is Donated for famine-2024 at Feni, Bangladesh</h3>
+     <h3> ${totalDonation} Taka is Donated for Aid for Injured in the Quota Movement, Bangladesh</h3>
     
  
      `    
