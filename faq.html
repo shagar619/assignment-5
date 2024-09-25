@@ -63,9 +63,9 @@
             <!-- Navbar Section -->
 
 
- <nav class="bg-[#F9F7F3] flex justify-around items-center pt-6 pb-16">
+ <nav class="bg-[#F9F7F3] flex justify-around items-center pt-6 pb-16 mb-32">
      <div>
-         <button class="btn-primary px-8 py-4 rounded-lg text-[#111111] text-xl font-semibold">Blog</button>
+         <button id="btn-home" class="btn-primary px-8 py-4 rounded-lg text-[#111111] text-xl font-semibold">Home</button>
      </div>
 
      <div class="flex items-center space-x-3">
@@ -80,45 +80,65 @@
  </nav>
 
 
-                 <!-- Button Section -->
 
 
- <div class="flex justify-center space-x-5 pt-20 pb-8">
-     <button id="donation-button" class="btn-primary px-8 py-4 rounded-lg text-[#111111] text-xl font-semibold">Donation</button>
-     <button id="history-button" class="btn-secondary text-xl font-medium border rounded-lg  px-8 py-4">History</button>
- </div>
 
 
 </header>
 
 
-<main>
+    
+
+<main class="md:container mx-auto">
+
+    <h2 class="text-black text-4xl font-bold mb-12">Important FAQ</h2> 
+
+
+   
+
+   <div  class="md:container mx-auto border p-12 rounded-2xl">
+
 
     <div class="collapse collapse-arrow bg-base-200">
         <input type="radio" name="my-accordion-2" checked="checked" />
-        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-title text-xl font-medium">What is thr Document Object Model(DOM)?</div>
         <div class="collapse-content">
-          <p>hello</p>
+          <p>It's a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.</p>
         </div>
       </div>
       <div class="collapse collapse-arrow bg-base-200">
         <input type="radio" name="my-accordion-2" />
-        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-title text-xl font-medium">How do you select an element from DOM?</div>
         <div class="collapse-content">
-          <p>hello</p>
+          <p>The getElementById() method of the Document interface returns an Element object representing the element whose id property matches the specified string.</p>
         </div>
       </div>
       <div class="collapse collapse-arrow bg-base-200">
         <input type="radio" name="my-accordion-2" />
-        <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+        <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why is it useful?</div>
         <div class="collapse-content">
-          <p>hello</p>
+          <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.</p>
         </div>
       </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">How do you manipulate an element's attribute's and styling using the DOM?</div>
+        <div class="collapse-content">
+          <p>The classList object only provide methods to change the class of an element. If you want to change other attributes like id , href , or src , you can use the setAttribute() method. The setAttribute() method accepts two arguments: The name of the attribute to set.</p>
+        </div>
+      </div>
+
+
+
+   </div>
 
 
 
 </main>
+
+
+
+<script src="faq.js"></script>
 
 
 </body>

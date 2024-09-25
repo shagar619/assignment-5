@@ -185,4 +185,13 @@ document.getElementById('blog-button').addEventListener('click', () => {
 
 
     window.location.href= '/faq.html'
-});            
+}); 
+
+
+
+
+
+
+
+
+
