@@ -186,8 +186,14 @@ document.getElementById('history-button').addEventListener('click', () => {
 document.getElementById('blog-button').addEventListener('click', () => {
 
 
-    window.location.href= '/faq.html'
+    window.location.href= './faq.html'
 }); 
+
+
+
+
+
+
 
 
 
